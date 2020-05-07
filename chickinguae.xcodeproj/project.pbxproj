@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E6474D96CEEBA6994425572 /* Pods_chickinguae.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27E8C4BF6B1C58CCC6189D3 /* Pods_chickinguae.framework */; };
+		FA860D022461E581007FB4A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA860D012461E581007FB4A0 /* AppDelegate.swift */; };
+		FA860D042461E581007FB4A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA860D032461E581007FB4A0 /* SceneDelegate.swift */; };
+		FA860D092461E581007FB4A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA860D072461E581007FB4A0 /* Main.storyboard */; };
+		FA860D0B2461E583007FB4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA860D0A2461E583007FB4A0 /* Assets.xcassets */; };
+		FA860D0E2461E583007FB4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA860D0C2461E583007FB4A0 /* LaunchScreen.storyboard */; };
+		FA860D192461E583007FB4A0 /* chickinguaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA860D182461E583007FB4A0 /* chickinguaeTests.swift */; };
+		FA860D242461E583007FB4A0 /* chickinguaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA860D232461E583007FB4A0 /* chickinguaeUITests.swift */; };
+		FA860D3224631406007FB4A0 /* desinableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA860D3124631406007FB4A0 /* desinableView.swift */; };
+		FA860D34246327D9007FB4A0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA860D33246327D9007FB4A0 /* Constants.swift */; };
+		FA860D3624632AAE007FB4A0 /* debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA860D3524632AAE007FB4A0 /* debug.swift */; };
+		FA860D3A2463411B007FB4A0 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA860D392463411B007FB4A0 /* CategoryCollectionViewCell.swift */; };
+		FA860D3E24634965007FB4A0 /* foodmenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA860D3D24634965007FB4A0 /* foodmenuView.swift */; };
+		FA860D402463523F007FB4A0 /* productCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA860D3F2463523F007FB4A0 /* productCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA860D152461E583007FB4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA860CF62461E580007FB4A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA860CFD2461E580007FB4A0;
+			remoteInfo = chickinguae;
+		};
+		FA860D202461E583007FB4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA860CF62461E580007FB4A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA860CFD2461E580007FB4A0;
+			remoteInfo = chickinguae;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E0A2B662BB6C08B3AAFDAA1 /* Pods-chickinguae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chickinguae.debug.xcconfig"; path = "Target Support Files/Pods-chickinguae/Pods-chickinguae.debug.xcconfig"; sourceTree = "<group>"; };
+		8EE0CC6D76C7C380B38139F6 /* Pods-chickinguae.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chickinguae.release.xcconfig"; path = "Target Support Files/Pods-chickinguae/Pods-chickinguae.release.xcconfig"; sourceTree = "<group>"; };
+		A27E8C4BF6B1C58CCC6189D3 /* Pods_chickinguae.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chickinguae.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA860CFE2461E581007FB4A0 /* chickinguae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chickinguae.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA860D012461E581007FB4A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA860D032461E581007FB4A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA860D082461E581007FB4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA860D0A2461E583007FB4A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA860D0D2461E583007FB4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA860D0F2461E583007FB4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA860D142461E583007FB4A0 /* chickinguaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chickinguaeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA860D182461E583007FB4A0 /* chickinguaeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chickinguaeTests.swift; sourceTree = "<group>"; };
+		FA860D1A2461E583007FB4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA860D1F2461E583007FB4A0 /* chickinguaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chickinguaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA860D232461E583007FB4A0 /* chickinguaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chickinguaeUITests.swift; sourceTree = "<group>"; };
+		FA860D252461E583007FB4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA860D3124631406007FB4A0 /* desinableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = desinableView.swift; sourceTree = "<group>"; };
+		FA860D33246327D9007FB4A0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA860D3524632AAE007FB4A0 /* debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = debug.swift; sourceTree = "<group>"; };
+		FA860D392463411B007FB4A0 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA860D3D24634965007FB4A0 /* foodmenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodmenuView.swift; sourceTree = "<group>"; };
+		FA860D3F2463523F007FB4A0 /* productCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA860CFB2461E580007FB4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6474D96CEEBA6994425572 /* Pods_chickinguae.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA860D112461E583007FB4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA860D1C2461E583007FB4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1636132659D819BE1FB9465C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E0A2B662BB6C08B3AAFDAA1 /* Pods-chickinguae.debug.xcconfig */,
+				8EE0CC6D76C7C380B38139F6 /* Pods-chickinguae.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD35F67C116DC91D537A70C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A27E8C4BF6B1C58CCC6189D3 /* Pods_chickinguae.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA860CF52461E580007FB4A0 = {
+			isa = PBXGroup;
+			children = (
+				FA860D002461E581007FB4A0 /* chickinguae */,
+				FA860D172461E583007FB4A0 /* chickinguaeTests */,
+				FA860D222461E583007FB4A0 /* chickinguaeUITests */,
+				FA860CFF2461E581007FB4A0 /* Products */,
+				1636132659D819BE1FB9465C /* Pods */,
+				BD35F67C116DC91D537A70C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA860CFF2461E581007FB4A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA860CFE2461E581007FB4A0 /* chickinguae.app */,
+				FA860D142461E583007FB4A0 /* chickinguaeTests.xctest */,
+				FA860D1F2461E583007FB4A0 /* chickinguaeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA860D002461E581007FB4A0 /* chickinguae */ = {
+			isa = PBXGroup;
+			children = (
+				FA860D012461E581007FB4A0 /* AppDelegate.swift */,
+				FA860D032461E581007FB4A0 /* SceneDelegate.swift */,
+				FA860D3524632AAE007FB4A0 /* debug.swift */,
+				FA860D3124631406007FB4A0 /* desinableView.swift */,
+				FA860D33246327D9007FB4A0 /* Constants.swift */,
+				FA860D072461E581007FB4A0 /* Main.storyboard */,
+				FA860D0A2461E583007FB4A0 /* Assets.xcassets */,
+				FA860D0C2461E583007FB4A0 /* LaunchScreen.storyboard */,
+				FA860D0F2461E583007FB4A0 /* Info.plist */,
+				FA860D392463411B007FB4A0 /* CategoryCollectionViewCell.swift */,
+				FA860D3D24634965007FB4A0 /* foodmenuView.swift */,
+				FA860D3F2463523F007FB4A0 /* productCollectionViewCell.swift */,
+			);
+			path = chickinguae;
+			sourceTree = "<group>";
+		};
+		FA860D172461E583007FB4A0 /* chickinguaeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA860D182461E583007FB4A0 /* chickinguaeTests.swift */,
+				FA860D1A2461E583007FB4A0 /* Info.plist */,
+			);
+			path = chickinguaeTests;
+			sourceTree = "<group>";
+		};
+		FA860D222461E583007FB4A0 /* chickinguaeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA860D232461E583007FB4A0 /* chickinguaeUITests.swift */,
+				FA860D252461E583007FB4A0 /* Info.plist */,
+			);
+			path = chickinguaeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA860CFD2461E580007FB4A0 /* chickinguae */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA860D282461E583007FB4A0 /* Build configuration list for PBXNativeTarget "chickinguae" */;
+			buildPhases = (
+				EA8D6A5550082B2095F1E3A8 /* [CP] Check Pods Manifest.lock */,
+				FA860CFA2461E580007FB4A0 /* Sources */,
+				FA860CFB2461E580007FB4A0 /* Frameworks */,
+				FA860CFC2461E580007FB4A0 /* Resources */,
+				7894D1A938E38ACA2D37C41E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chickinguae;
+			productName = chickinguae;
+			productReference = FA860CFE2461E581007FB4A0 /* chickinguae.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA860D132461E583007FB4A0 /* chickinguaeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA860D2B2461E583007FB4A0 /* Build configuration list for PBXNativeTarget "chickinguaeTests" */;
+			buildPhases = (
+				FA860D102461E583007FB4A0 /* Sources */,
+				FA860D112461E583007FB4A0 /* Frameworks */,
+				FA860D122461E583007FB4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA860D162461E583007FB4A0 /* PBXTargetDependency */,
+			);
+			name = chickinguaeTests;
+			productName = chickinguaeTests;
+			productReference = FA860D142461E583007FB4A0 /* chickinguaeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA860D1E2461E583007FB4A0 /* chickinguaeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA860D2E2461E583007FB4A0 /* Build configuration list for PBXNativeTarget "chickinguaeUITests" */;
+			buildPhases = (
+				FA860D1B2461E583007FB4A0 /* Sources */,
+				FA860D1C2461E583007FB4A0 /* Frameworks */,
+				FA860D1D2461E583007FB4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA860D212461E583007FB4A0 /* PBXTargetDependency */,
+			);
+			name = chickinguaeUITests;
+			productName = chickinguaeUITests;
+			productReference = FA860D1F2461E583007FB4A0 /* chickinguaeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA860CF62461E580007FB4A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = MacBook;
+				TargetAttributes = {
+					FA860CFD2461E580007FB4A0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FA860D132461E583007FB4A0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FA860CFD2461E580007FB4A0;
+					};
+					FA860D1E2461E583007FB4A0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FA860CFD2461E580007FB4A0;
+					};
+				};
+			};
+			buildConfigurationList = FA860CF92461E580007FB4A0 /* Build configuration list for PBXProject "chickinguae" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA860CF52461E580007FB4A0;
+			productRefGroup = FA860CFF2461E581007FB4A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA860CFD2461E580007FB4A0 /* chickinguae */,
+				FA860D132461E583007FB4A0 /* chickinguaeTests */,
+				FA860D1E2461E583007FB4A0 /* chickinguaeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA860CFC2461E580007FB4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA860D0E2461E583007FB4A0 /* LaunchScreen.storyboard in Resources */,
+				FA860D0B2461E583007FB4A0 /* Assets.xcassets in Resources */,
+				FA860D092461E581007FB4A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA860D122461E583007FB4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA860D1D2461E583007FB4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7894D1A938E38ACA2D37C41E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chickinguae/Pods-chickinguae-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chickinguae/Pods-chickinguae-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chickinguae/Pods-chickinguae-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA8D6A5550082B2095F1E3A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chickinguae-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA860CFA2461E580007FB4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA860D34246327D9007FB4A0 /* Constants.swift in Sources */,
+				FA860D3624632AAE007FB4A0 /* debug.swift in Sources */,
+				FA860D402463523F007FB4A0 /* productCollectionViewCell.swift in Sources */,
+				FA860D3224631406007FB4A0 /* desinableView.swift in Sources */,
+				FA860D022461E581007FB4A0 /* AppDelegate.swift in Sources */,
+				FA860D3E24634965007FB4A0 /* foodmenuView.swift in Sources */,
+				FA860D3A2463411B007FB4A0 /* CategoryCollectionViewCell.swift in Sources */,
+				FA860D042461E581007FB4A0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA860D102461E583007FB4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA860D192461E583007FB4A0 /* chickinguaeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA860D1B2461E583007FB4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA860D242461E583007FB4A0 /* chickinguaeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA860D162461E583007FB4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA860CFD2461E580007FB4A0 /* chickinguae */;
+			targetProxy = FA860D152461E583007FB4A0 /* PBXContainerItemProxy */;
+		};
+		FA860D212461E583007FB4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA860CFD2461E580007FB4A0 /* chickinguae */;
+			targetProxy = FA860D202461E583007FB4A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA860D072461E581007FB4A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA860D082461E581007FB4A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA860D0C2461E583007FB4A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA860D0D2461E583007FB4A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA860D262461E583007FB4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA860D272461E583007FB4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA860D292461E583007FB4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0A2B662BB6C08B3AAFDAA1 /* Pods-chickinguae.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V845F72B6;
+				INFOPLIST_FILE = chickinguae/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codegreen.chickinguae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA860D2A2461E583007FB4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE0CC6D76C7C380B38139F6 /* Pods-chickinguae.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V845F72B6;
+				INFOPLIST_FILE = chickinguae/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codegreen.chickinguae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA860D2C2461E583007FB4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V845F72B6;
+				INFOPLIST_FILE = chickinguaeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codegreen.chickinguaeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chickinguae.app/chickinguae";
+			};
+			name = Debug;
+		};
+		FA860D2D2461E583007FB4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V845F72B6;
+				INFOPLIST_FILE = chickinguaeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codegreen.chickinguaeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chickinguae.app/chickinguae";
+			};
+			name = Release;
+		};
+		FA860D2F2461E583007FB4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V845F72B6;
+				INFOPLIST_FILE = chickinguaeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codegreen.chickinguaeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chickinguae;
+			};
+			name = Debug;
+		};
+		FA860D302461E583007FB4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V845F72B6;
+				INFOPLIST_FILE = chickinguaeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codegreen.chickinguaeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chickinguae;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA860CF92461E580007FB4A0 /* Build configuration list for PBXProject "chickinguae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA860D262461E583007FB4A0 /* Debug */,
+				FA860D272461E583007FB4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA860D282461E583007FB4A0 /* Build configuration list for PBXNativeTarget "chickinguae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA860D292461E583007FB4A0 /* Debug */,
+				FA860D2A2461E583007FB4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA860D2B2461E583007FB4A0 /* Build configuration list for PBXNativeTarget "chickinguaeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA860D2C2461E583007FB4A0 /* Debug */,
+				FA860D2D2461E583007FB4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA860D2E2461E583007FB4A0 /* Build configuration list for PBXNativeTarget "chickinguaeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA860D2F2461E583007FB4A0 /* Debug */,
+				FA860D302461E583007FB4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA860CF62461E580007FB4A0 /* Project object */;
+}
